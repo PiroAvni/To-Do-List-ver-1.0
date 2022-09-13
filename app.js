@@ -33,9 +33,9 @@ addForm.addEventListener('submit', e => {
 
 // delete todos - adding an event listerner to the list
 list.addEventListener('click', e =>{
-    // check if the target click is the trash can
+    // check if the target clicked contains delete class for the trash can
     if(e.target.classList.contains('delete')){
-        // deletes the parent targeting the <li> tag
+        // deletes the parent element - targeting the <li> tag and removes
         e.target.parentElement.remove();
     }
 })
