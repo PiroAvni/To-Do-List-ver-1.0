@@ -38,4 +38,4 @@ list.addEventListener('click', e =>{
         // deletes the parent element - targeting the <li> tag and removes
         e.target.parentElement.remove();
     }
-})
+});
